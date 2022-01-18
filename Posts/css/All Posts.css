@@ -1,0 +1,89 @@
+* {
+          outline: none;
+}
+
+#generator {
+          font-size: 20px;
+          color: #08526d;
+          width: 1200px;
+}
+
+.generat {
+          margin: 10px;
+          padding: 10px;
+          transform: translateY(0px) translateX(300px);
+          width: 400px;
+}
+
+/* .generat button {
+          outline: none;
+          border-radius: 20px;
+          border: none;
+          height: 50px;
+          background-color: cornflowerblue;
+} */
+
+.cta {
+          position: relative;
+          margin: auto;
+          padding: 12px 18px;
+          transition: all 0.2s ease;
+          border: none;
+          background: none;
+          height: 100px;
+          outline: none;
+}
+
+.cta:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          border-radius: 50px;
+          background: #b1dae7;
+          width: 45px;
+          height: 100px;
+          transition: all 0.3s ease;
+          outline: none;
+}
+
+.cta span {
+          position: relative;
+          font-family: "Ubuntu", sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          color: #234567;
+          outline: none;
+}
+
+.cta svg {
+          position: relative;
+          top: 0;
+          margin-left: 10px;
+          fill: none;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke: #234567;
+          stroke-width: 2;
+          transform: translateX(-5px);
+          transition: all 0.3s ease;
+          outline: none;
+}
+
+.cta:hover:before {
+          width: 100%;
+          background: #b1dae7;
+          outline: none;
+}
+
+.cta:hover svg {
+          transform: translateX(0);
+          outline: none;
+}
+
+.cta:active {
+          transform: scale(0.95);
+          outline: none;
+}
